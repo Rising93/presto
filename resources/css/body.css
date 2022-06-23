@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../../public/img/bgimg.jpg') no-repeat center fixed;
+    font-family: 'Roboto', sans-serif;
+    color: #FFC107 !important;
+    background-size:cover;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.f-pacifico{
+    font-family: 'Sora', sans-serif;
+    color: #FFC107 !important;
+}
+
+.f-roboto{
+    font-family: 'Roboto', sans-serif;
+    color: #FFC107 !important;
+}
+
+tbody,td{
+    font-family: 'Roboto', sans-serif;
+    color: #FFC107 !important;
+}
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+.divsotto{
+    width: 100px;
+    height: 100px;
+}

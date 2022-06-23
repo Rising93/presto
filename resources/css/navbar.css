@@ -1,0 +1,105 @@
+.navbarCust{
+    transition: all 500ms;
+    background-color:rgba(0,0,0,0);
+    font-family: 'Sora', sans-serif;
+    color: #FFC107;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+
+}
+
+.navanimation{
+    transition: all 500ms;
+    background-color:rgba(0,0,0,1);
+    font-family: 'Sora', sans-serif;
+    color: #FFC107;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+
+.btnCustom{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 21px;
+    padding-top: 10px;
+}
+
+.btnCustom:hover{
+    color:#FFC107;
+}
+.underlineHover{
+    display: inline-block;
+    position: relative;
+    color: #FFC107 !important;
+    transition: all 250ms;
+    text-decoration: none;
+    
+}
+
+.underlineHover:hover{
+    transition: all 250ms;
+    color: red;
+}
+
+.underlineHover:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:  red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+
+.underlineHover:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.btnBar1, .btnBar2, .btnBar3{
+    width: 40px;
+    height: 2px;
+    background-color: #FFC107;
+    margin: 10px 0;
+    transition: 0.4s;
+  
+}
+
+.change.btnBar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change.btnBar2{
+    opacity: 0;
+}
+  
+.change.btnBar3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (min-width: 992px){
+    .btnBar{
+        display: none;
+    }
+
+}
+
+.notification{
+    position: absolute;
+    top: 0;
+    right: -10;
+    font-size: 20px;
+}
+

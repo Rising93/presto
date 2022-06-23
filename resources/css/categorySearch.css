@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 991px){
+    .categorySearch{
+        display: none;
+    }
+
+}
+
+
+.stickyCustom{
+    position: sticky bottom;
+    position: -webkit-sticky;
+    bottom:101px 
+}
+
+.category-mobile-search{
+    position:sticky;
+    top: 180px;
+    width: auto;
+    padding: 0;
+    z-index: 2;
+    transition: all 500ms;
+    background-color:rgba(0,0,0,0);
+}
+
+.category-mobile-search-scroll{
+    position:sticky;
+    top: 140px;
+    width: auto;
+    padding: 0;
+    z-index: 2;
+    transition: all 500ms;
+    background-color:rgba(0,0,0,1);
+}
+

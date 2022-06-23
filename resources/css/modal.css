@@ -1,0 +1,18 @@
+.modal-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: rgba(0,0,0,0.9);
+    background-clip: padding-box;
+    border: 3px solid #FFC107 ;
+    border-radius: 0.5rem;
+    outline: 0;
+}
+
+.notification-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+}

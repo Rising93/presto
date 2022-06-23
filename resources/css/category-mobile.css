@@ -1,0 +1,28 @@
+@media screen and (min-width: 992px){
+    .category-mobile-query{
+        display: none;
+    }
+
+}
+
+.category-mobile{
+    position:sticky;
+    top: 126px;
+    width: auto;
+    padding: 0;
+    z-index: 2;
+    transition: all 500ms;
+    background-color:rgba(0,0,0,0);
+}
+  
+
+.category-mobile-custom{
+    position:sticky;
+    width: auto;
+    top: 106px;
+    padding: 0;
+    z-index: 2;
+    transition: all 500ms;
+    background-color:rgba(0,0,0,1);
+}
+  

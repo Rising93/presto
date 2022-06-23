@@ -1,0 +1,36 @@
+.ulslide {
+    list-style: none;
+  }
+  
+  
+  #wrapper {
+    z-index: 1000;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;  
+    width: 100%;
+  }
+.box {
+top:0;
+display: flex;
+justify-content: center;
+width: 100%;
+} 
+
+.fixedtop{
+
+    position: absolute;
+    top:0;
+    bottom: -800px;
+    right: 0px;
+    left: 1550px;
+
+}
+
+@media screen and (max-width: 992px){
+    .fixedtop{
+        display: none;
+    }
+
+}

@@ -1,0 +1,23 @@
+.header{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+@media screen and (max-width: 992px){
+    .header{
+        height: 200px;
+    }
+
+}
+
+#e5j8nkHVc171{
+    filter: invert(88%) sepia(32%) saturate(5344%) hue-rotate(353deg) brightness(104%) contrast(103%);
+}
+
+.img-size{
+    font-size: 1000px;
+    text-align: center;
+    align-items: center;
+}
+

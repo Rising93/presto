@@ -1,0 +1,26 @@
+@import '~bootstrap';
+@import './header.css';
+@import'./swiper.css';
+@import './spinner.css';
+@import'./categorySearch.css';
+@import'./navbar.css';
+@import'./formCust.css';
+@import'./modal.css';
+@import'./body.css';
+@import'./footer.css';
+@import'./articlefind.css';
+@import'./displayNonelayout.css';
+@import'./category-mobile.css';
+@import'../../node_modules/flag-icon-css/css/flag-icons.css';
+@import 'animate.css';
+@import'./imground';
+@import'./paginate.css';
+
+
+/* @import'swiper/css';
+@import'swiper/css/navigation';
+@import'swiper/css/pagination';
+@import 'swiper/css/bundle'; */
+
+
+

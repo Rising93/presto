@@ -1,0 +1,13 @@
+.formCust{
+    font-family: 'Roboto', sans-serif;
+    color: #FFC107 !important;
+    background-color: rgba(1,1,1,0.9);
+    border: solid 3px #FFC107 ;
+    border-radius: 7%;
+    padding: 4%;
+    -webkit-box-shadow: 9px 10px 30px -6px #000000;
+    -moz-box-shadow: 9px 10px 30px -6px #000000;
+    -o-box-shadow: 9px 10px 30px -6px #000000;
+    box-shadow: 9px 10px 30px -6px #000000;
+    
+}

@@ -1,0 +1,23 @@
+
+footer.sticky-footer {
+    padding: 2rem 0;
+    flex-shrink: 1;
+    position: sticky;
+    bottom: 0;
+    top: 0;
+  }
+  
+  footer.sticky-footer .copyright {
+    line-height: 1;
+    font-size: 0.8rem;
+  }
+
+  footer, div, div, a{
+    text-decoration: none;
+  }
+
+ .bgColorFooter{
+  background-color: rgba(0,0,0,1);;
+ }
+
+  
